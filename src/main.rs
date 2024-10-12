@@ -9,6 +9,7 @@ async fn index() -> &'static str {
 pub mod routes;
 pub mod services;
 pub mod models;
+pub mod config;
 
 
 #[actix_web::main]
